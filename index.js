@@ -1,7 +1,7 @@
 var discord = require('discord.js');
 var roblox = require('roblox-js');
 var client = new discord.Client();
-var token = "NDM0NTI5ODE1NDUwNjE1ODEy.XOYJ5A.YcEm-krLn00yae8wtgmILCB_bJY"
+var token = ""
 client.login(token)
 
 roblox.login({username: "RileyLoveskittys1", password: "09394157030"}).then((success) => {
